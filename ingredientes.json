@@ -1,0 +1,230 @@
+[
+    {
+        "value": "arroz",
+        "label": "🍚 Arroz"
+    },
+    {
+        "value": "pollo",
+        "label": "🍗 Pollo"
+    },
+    {
+        "value": "caldo",
+        "label": "🥣 Caldo"
+    },
+    {
+        "value": "papas",
+        "label": "🥔 Papas"
+    },
+    {
+        "value": "tomate",
+        "label": "🍅 Tomate"
+    },
+    {
+        "value": "zanahoria",
+        "label": "🥕 Zanahoria"
+    },
+    {
+        "value": "cebolla",
+        "label": "🧅 Cebolla"
+    },
+    {
+        "value": "ajo",
+        "label": "🧄 Ajo"
+    },
+    {
+        "value": "pimiento",
+        "label": "🌶️ Pimiento"
+    },
+    {
+        "value": "pescado",
+        "label": "🐟 Pescado"
+    },
+    {
+        "value": "queso",
+        "label": "🧀 Queso"
+    },
+    {
+        "value": "huevo",
+        "label": "🥚 Huevo"
+    },
+    {
+        "value": "lechuga",
+        "label": "🥬 Lechuga"
+    },
+    {
+        "value": "manzana",
+        "label": "🍏 Manzana"
+    },
+    {
+        "value": "banana",
+        "label": "🍌 Banana"
+    },
+    {
+        "value": "fresa",
+        "label": "🍓 Fresa"
+    },
+    {
+        "value": "mora",
+        "label": "🍇 Mora"
+    },
+    {
+        "value": "naranja",
+        "label": "🍊 Naranja"
+    },
+    {
+        "value": "pera",
+        "label": "🍐 Pera"
+    },
+    {
+        "value": "piña",
+        "label": "🍍 Piña"
+    },
+    {
+        "value": "sandía",
+        "label": "🍉 Sandía"
+    },
+    {
+        "value": "uva",
+        "label": "🍇 Uva"
+    },
+    {
+        "value": "chocolate",
+        "label": "🍫 Chocolate"
+    },
+    {
+        "value": "mantequilla",
+        "label": "🧈 Mantequilla"
+    },
+    {
+        "value": "aceite",
+        "label": "🫒 Aceite"
+    },
+    {
+        "value": "sal",
+        "label": "🧂 Sal"
+    },
+    {
+        "value": "pimienta",
+        "label": "🌶️ Pimienta"
+    },
+    {
+        "value": "azúcar",
+        "label": "🍬 Azúcar"
+    },
+    {
+        "value": "harina",
+        "label": "🌾 Harina"
+    },
+    {
+        "value": "pasta",
+        "label": "🍝 Pasta"
+    },
+    {
+        "value": "arvejas",
+        "label": "🍵 Arvejas"
+    },
+    {
+        "value": "brocoli",
+        "label": "🥦 Brócoli"
+    },
+    {
+        "value": "coliflor",
+        "label": "🌸 Coliflor"
+    },
+    {
+        "value": "berro",
+        "label": "🌿 Berro"
+    },
+    {
+        "value": "espinaca",
+        "label": "🍃 Espinaca"
+    },
+    {
+        "value": "repollo",
+        "label": "🥬 Repollo"
+    },
+    {
+        "value": "berenjena",
+        "label": "🍆 Berenjena"
+    },
+    {
+        "value": "calabacín",
+        "label": "🥒 Calabacín"
+    },
+    {
+        "value": "maíz",
+        "label": "🌽 Maíz"
+    },
+    {
+        "value": "aceituna",
+        "label": "🫒 Aceituna"
+    },
+    {
+        "value": "champiñón",
+        "label": "🍄 Champiñón"
+    },
+    {
+        "value": "paprika",
+        "label": "🌶️ Pimentón"
+    },
+    {
+        "value": "mariscos",
+        "label": "🦪 Mariscos"
+    },
+    {
+        "value": "camarones",
+        "label": "🍤 Camarones"
+    },
+    {
+        "value": "tofu",
+        "label": "🍽️ Tofu"
+    },
+    {
+        "value": "quinoa",
+        "label": "🍚 Quinoa"
+    },
+    {
+        "value": "lentejas",
+        "label": "🥣 Lentejas"
+    },
+    {
+        "value": "garbanzos",
+        "label": "🍲 Garbanzos"
+    },
+    {
+        "value": "nuez",
+        "label": "🌰 Nuez"
+    },
+    {
+        "value": "almendra",
+        "label": "🌰 Almendra"
+    },
+    {
+        "value": "cacahuate",
+        "label": "🥜 Cacahuate"
+    },
+    {
+        "value": "pistacho",
+        "label": "🥜 Pistacho"
+    },
+    {
+        "value": "sésamo",
+        "label": "🍞 Sésamo"
+    },
+    {
+        "value": "yogur",
+        "label": "🥛 Yogur"
+    },
+    {
+        "value": "leche",
+        "label": "🥛 Leche"
+    },
+    {
+        "value": "crema",
+        "label": "🍦 Crema"
+    },
+    {
+        "value": "batido",
+        "label": "🥤 Batido"
+    }
+]
