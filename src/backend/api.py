@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import json
 from fastapi.middleware.cors import CORSMiddleware
 from .model import generate_recipe
 app = FastAPI()
@@ -14,4 +15,4 @@ app.add_middleware(
 @app.post("/recipes")
 def get_recipes(data:dict):
     recipes = generate_recipe(data["ingredientes"])
-    return recipes.content
+    return json.loads(recipes.content)
