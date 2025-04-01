@@ -50,7 +50,7 @@ function App() {
           {recetas.map((receta, index) => (
             <div key={index} className='w-11/12 p-4 border rounded-md shadow-md bg-white'>
               <h3 className='text-xl font-semibold'>{receta.Titulo}</h3>
-              <ul className='flex gap-2 mt-4'>
+              <ul className='flex flex-wrap gap-2 mt-4'>
                 <li className='text-gray-700 font-semibold'>Ingredientes:</li>
                 {receta.Ingredientes.map((ingrediente, index) => (
                   <li key={index} className='text-gray-700'>{ingrediente.toLowerCase().replace(/\b\w/g, letra => letra.toUpperCase())}</li>
