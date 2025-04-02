@@ -62,8 +62,7 @@ const loadingSkeleton = () => {
       <section className='p-8'>
         <h2 className='text-center text-3xl font-bold mt-8'>¿Qué querés comer hoy?</h2>
         <SelectIngredientes />
-        <div className='w-9/12 mx-auto'>
-
+        <div className='w-11/12 lg:w-9/12 md:w-9/12 mx-auto'>
         <p className='text-xl my-4 font-semibold'>Tus recetas:</p>
         {loading ? loadingSkeleton() : null}
         <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4'>
@@ -85,7 +84,7 @@ const loadingSkeleton = () => {
             </div>
           ))}
         </div>
-        <button className='p-2 rounded-md border-2 mt-6 shadow-lg bg-sky-500 text-white' onClick={generate}>
+        <button className='p-2 rounded-md border-none mt-6 shadow-lg bg-[#ebb206] text-black font-semibold' onClick={generate}>
           Generar recetas
         </button>
         </div>
