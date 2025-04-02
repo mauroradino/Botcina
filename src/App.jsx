@@ -3,6 +3,9 @@ import Header from './components/Header';
 import './App.css';
 import SelectIngredientes from './components/SelectIngredients';
 import { IngredientesContext } from './Context';
+import { SkeletonTheme } from 'react-loading-skeleton';
+import Skeleton from 'react-loading-skeleton';
+import "react-loading-skeleton/dist/skeleton.css";
 
 function App() {
   const [recetas, setRecetas] = useState([]);
@@ -34,7 +37,24 @@ function App() {
     }
   };
 
-
+const loadingSkeleton = () => {
+  return(
+    <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4'>
+      {Array.from({ length: 4 }).map((_, index) => (
+        <div key={index} className='w-11/12 p-4 border rounded-md shadow-md bg-white'>
+          <SkeletonTheme>
+          <Skeleton height={20} width="80%" />
+          <div className='mt-4'>
+          <p>
+          <Skeleton count={3} />
+          </p>
+          </div>
+          </SkeletonTheme>
+        </div>
+      ))}
+    </div>
+  )
+}
 
   return (
     <div className='w-full h-screen m-0 p-0'>
@@ -45,7 +65,7 @@ function App() {
         <div className='w-9/12 mx-auto'>
 
         <p className='text-xl my-4 font-semibold'>Tus recetas:</p>
-        {loading ? <p>👨‍🍳 Cocinando tu respuesta...</p> : null}
+        {loading ? loadingSkeleton() : null}
         <div className='w-11/12 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-4'>
           {recetas.map((receta, index) => (
             <div key={index} className='w-11/12 p-4 border rounded-md shadow-md bg-white'>
@@ -65,7 +85,7 @@ function App() {
             </div>
           ))}
         </div>
-        <button className='p-2 rounded-md border-2 mt-4 shadow-lg bg-sky-500 text-white' onClick={generate}>
+        <button className='p-2 rounded-md border-2 mt-6 shadow-lg bg-sky-500 text-white' onClick={generate}>
           Generar recetas
         </button>
         </div>
