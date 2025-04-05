@@ -84,8 +84,8 @@ const loadingSkeleton = () => {
             </div>
           ))}
         </div>
-        <button className='p-2 rounded-md border-none mt-6 shadow-lg bg-[#ebb206] text-black font-semibold' onClick={generate}>
-          Generar recetas
+        <button className='p-2 rounded-md border-none mt-6 shadow-lg bg-[#ebb206] text-black font-semibold' disabled={loading} onClick={generate}>
+          {loading? "Generando recetas..." : "Generar recetas"}
         </button>
         </div>
       </section>
